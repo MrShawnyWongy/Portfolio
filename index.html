@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Shawn Wong, a cybersecurity student and aspiring penetration tester based in Singapore.">
+  <meta name="theme-color" content="#08111f">
+  <title>Shawn Wong | Cybersecurity Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" data-header>
+    <a class="brand" href="#home" aria-label="Shawn Wong, home">
+      <span class="brand-mark" aria-hidden="true">SW</span>
+      <span>Shawn Wong</span>
+    </a>
+
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-button>
+      <span class="sr-only">Open navigation</span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </button>
+
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation" data-nav>
+      <a href="#about">About</a>
+      <a href="#project">Project</a>
+      <a href="#experience">Experience</a>
+      <a href="#credentials">Credentials</a>
+      <a class="nav-contact" href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Cybersecurity student · Singapore</p>
+        <h1 id="hero-title">Building the skills to <span>test, challenge, and strengthen</span> systems.</h1>
+        <p class="hero-summary">I’m Shawn Wong, an aspiring penetration tester pursuing a Diploma in Infocomm Security Management. I focus on practical security testing, disciplined analysis, and continuous technical development.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#project">View featured project</a>
+          <a class="button button-secondary" href="assets/Shawn_Wong_Resume.docx" download>Download résumé <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+
+      <aside class="security-panel reveal" aria-label="Current professional focus">
+        <div class="panel-bar">
+          <span>professional_focus.yml</span>
+          <span class="panel-state">ACTIVE</span>
+        </div>
+        <dl class="focus-list">
+          <div><dt>target_role</dt><dd>Penetration Tester</dd></div>
+          <div><dt>education</dt><dd>Diploma in Infocomm Security Management</dd></div>
+          <div><dt>current_training</dt><dd>OSCC · CRTA</dd></div>
+          <div><dt>core_interest</dt><dd>Offensive Security</dd></div>
+        </dl>
+        <div class="panel-footer"><span>01</span><span>Structured learning in progress</span></div>
+      </aside>
+    </section>
+
+    <section class="metrics" aria-label="Key profile details">
+      <div class="metric reveal"><strong>3.62</strong><span>Cumulative GPA</span></div>
+      <div class="metric reveal"><strong>3×</strong><span>Director’s Roll of Honour</span></div>
+      <div class="metric reveal"><strong>Finalist</strong><span>CDDC BrainHack & Lag and Crash</span></div>
+      <div class="metric reveal"><strong>2027</strong><span>Expected graduation</span></div>
+    </section>
+
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="section-heading reveal">
+        <p class="section-index">01 / PROFILE</p>
+        <h2 id="about-title">Security begins with understanding how systems fail.</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p>I am a cybersecurity student developing toward a career in penetration testing. My learning spans network defence, scripting, cloud systems, traffic analysis, and hands-on security tools.</p>
+          <p>I bring the same discipline to technical work that I developed through leadership and operational roles: understand the environment, communicate clearly, and follow through methodically.</p>
+        </div>
+        <div class="capability-list reveal" aria-label="Core capabilities">
+          <div><span>01</span><p>Reconnaissance and security testing fundamentals</p></div>
+          <div><span>02</span><p>Network traffic and packet analysis</p></div>
+          <div><span>03</span><p>Firewall and intrusion-detection technologies</p></div>
+          <div><span>04</span><p>Python scripting and cloud infrastructure</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section project-section" id="project" aria-labelledby="project-title">
+      <div class="section-heading reveal">
+        <p class="section-index">02 / FEATURED PROJECT</p>
+        <h2 id="project-title">Risk Assessment Chatbot</h2>
+      </div>
+
+      <article class="project-card reveal">
+        <div class="project-visual" aria-hidden="true">
+          <div class="assessment-window">
+            <div class="assessment-header"><span>RISK ASSESSMENT</span><span>SESSION 01</span></div>
+            <div class="risk-row"><span>Asset exposure</span><i style="--score: 74%"></i><b>HIGH</b></div>
+            <div class="risk-row"><span>Access controls</span><i style="--score: 46%"></i><b>MED</b></div>
+            <div class="risk-row"><span>Recovery readiness</span><i style="--score: 28%"></i><b>LOW</b></div>
+            <div class="assessment-prompt"><span>&gt;</span><p>Generating structured risk guidance...</p></div>
+          </div>
+        </div>
+        <div class="project-content">
+          <p class="project-label">CYBERSECURITY · CONVERSATIONAL INTERFACE</p>
+          <h3>A guided approach to understanding security risk.</h3>
+          <p>This project explores how a chatbot can support a structured risk-assessment conversation—helping users identify concerns, consider their impact, and receive clearer security guidance.</p>
+          <div class="project-details">
+            <div><span>Focus</span><p>Risk identification and communication</p></div>
+            <div><span>Approach</span><p>Guided, conversational assessment</p></div>
+            <div><span>Principle</span><p>Make security decisions easier to understand</p></div>
+          </div>
+          <p class="project-note">Further technical documentation and implementation details are being prepared.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="section" id="experience" aria-labelledby="experience-title">
+      <div class="section-heading reveal">
+        <p class="section-index">03 / EXPERIENCE</p>
+        <h2 id="experience-title">Technical foundation and leadership.</h2>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <div class="timeline-meta"><span>2024 — 2027</span><span>EDUCATION</span></div>
+          <div><h3>Diploma in Infocomm Security Management</h3><p class="timeline-org">Republic Polytechnic</p><p>Coursework includes cybersecurity, firewall management, coding and scripting, and Amazon Web Services. Current cumulative GPA: 3.62/4.0.</p></div>
+        </article>
+        <article class="timeline-item reveal">
+          <div class="timeline-meta"><span>2023</span><span>INTERNSHIP</span></div>
+          <div><h3>Desktop Engineer Intern</h3><p class="timeline-org">NCS Singapore</p><p>Prepared and deployed hundreds of laptops, supported endpoint software installation, and maintained accurate device allocation and inventory records.</p></div>
+        </article>
+        <article class="timeline-item reveal">
+          <div class="timeline-meta"><span>2022 — 2024</span><span>LEADERSHIP</span></div>
+          <div><h3>Vice President</h3><p class="timeline-org">Network &amp; Security Technology Club, ITE</p><p>Led club activities, event logistics, and recruitment initiatives, including collaboration with the Singapore Police Force on public scam awareness and digital hygiene.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section credentials" id="credentials" aria-labelledby="credentials-title">
+      <div class="section-heading reveal">
+        <p class="section-index">04 / CREDENTIALS</p>
+        <h2 id="credentials-title">Continuous development, backed by practice.</h2>
+      </div>
+
+      <div class="credential-grid">
+        <article class="credential-card featured reveal">
+          <p>IN PROGRESS</p><h3>OSCC</h3><span>Offensive security training</span>
+        </article>
+        <article class="credential-card featured reveal">
+          <p>IN PROGRESS</p><h3>CRTA</h3><span>Red team training</span>
+        </article>
+        <article class="credential-card reveal">
+          <p>ISC² · 2025</p><h3>Certified in Cybersecurity</h3><span>Valid through September 2028</span>
+        </article>
+        <article class="credential-card reveal">
+          <p>PALO ALTO NETWORKS · 2025</p><h3>Network Security Fundamentals</h3><span>Security platform fundamentals</span>
+        </article>
+        <article class="credential-card reveal">
+          <p>NETWITNESS · 2026</p><h3>Introduction to NetWitness</h3><span>Platform introduction</span>
+        </article>
+      </div>
+
+      <div class="tools reveal">
+        <p class="tools-title">TOOLS &amp; TECHNOLOGIES</p>
+        <ul>
+          <li>Kali Linux</li><li>Nmap</li><li>Burp Suite</li><li>Metasploit</li><li>Wireshark</li><li>Snort</li><li>NetWitness</li><li>Palo Alto</li><li>Python</li><li>AWS</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section recognition" aria-labelledby="recognition-title">
+      <div class="section-heading reveal">
+        <p class="section-index">05 / RECOGNITION</p>
+        <h2 id="recognition-title">Selected achievements.</h2>
+      </div>
+      <div class="recognition-grid">
+        <div class="recognition-group reveal">
+          <p>ACADEMIC</p>
+          <ul>
+            <li><span>Director’s Roll of Honour</span><time>Y2S2 · 2025</time></li>
+            <li><span>Director’s Roll of Honour</span><time>Y2S1 · 2025</time></li>
+            <li><span>Director’s Roll of Honour</span><time>Y1S1 · 2024</time></li>
+            <li><span>Edusave Merit Bursary</span><time>2025</time></li>
+          </ul>
+        </div>
+        <div class="recognition-group reveal">
+          <p>COMPETITIONS</p>
+          <ul>
+            <li><span>CDDC BrainHack</span><time>Finalist · 2026</time></li>
+            <li><span>Lag and Crash</span><time>Finalist · 2026</time></li>
+            <li><span>SANS Spark CTF</span><time>Participant · 2026</time></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="contact-copy reveal">
+        <p class="section-index">06 / CONTACT</p>
+        <h2 id="contact-title">Let’s discuss security, learning, or opportunities.</h2>
+        <p>I’m interested in penetration testing, offensive security, and opportunities to develop through practical work.</p>
+      </div>
+      <div class="contact-links reveal">
+        <a href="mailto:shawnwong288@gmail.com"><span>Email</span><strong>shawnwong288@gmail.com</strong><i aria-hidden="true">↗</i></a>
+        <a href="https://www.linkedin.com/in/shawn-wong288" target="_blank" rel="noreferrer"><span>LinkedIn</span><strong>linkedin.com/in/shawn-wong288</strong><i aria-hidden="true">↗</i></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Shawn Wong · Cybersecurity Portfolio</p>
+    <p>Built with clarity and purpose. <span data-year></span></p>
+  </footer>
+</body>
+</html>
